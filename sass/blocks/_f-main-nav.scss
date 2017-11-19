@@ -1,0 +1,30 @@
+.f-main-nav {
+  &__list {
+    @include ul-reset();
+  }
+
+  &__item {
+    float: left;
+    padding-left: 21px;
+    padding-right: 21px;
+    border-right: 1px solid $color-gray;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+      border-right: none;
+    }
+  }
+
+  &__link {
+    font-size: 12px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

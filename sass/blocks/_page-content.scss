@@ -1,0 +1,10 @@
+.page-content {
+  box-sizing: border-box;
+  margin-bottom: 122px;
+}
+
+@media (max-width: $bp-tablet) {
+  .page-content {
+    margin-bottom: 70px;
+  }
+}

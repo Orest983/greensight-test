@@ -1,0 +1,12 @@
+@mixin ul-reset() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin img-responsive() {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}

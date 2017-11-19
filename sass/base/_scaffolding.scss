@@ -1,0 +1,24 @@
+body {
+  max-width: $max-width;
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: $font-primary;
+  background-color: $color-white;
+}
+
+a {
+  color: $color-blue;
+  font-weight: normal;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: $bp-tablet) {
+  body {
+    margin-left: 2.5%;
+    margin-right: 2.5%
+  }
+}

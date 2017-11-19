@@ -1,0 +1,22 @@
+{
+  "name": "greensight-test",
+  "description": "test",
+  "main": "",
+  "authors": [
+    "orest1983 <orest1983@mail.ru>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendors",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "flexibility": "^2.0.1"
+  }
+}

@@ -1,0 +1,28 @@
+.page-footer {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  border-top: 1px solid $color-gray;
+
+  &__nav {
+    float: left;
+    width: 54.167%;
+    margin-right: 22.3%;
+  }
+
+  &__copyright {
+    float: left;
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  .page-footer {
+    &__nav {
+      width: 68.1%;
+      margin-right: 0;
+    }
+
+    &__copyright {
+      float: right;
+    }
+  }
+}
